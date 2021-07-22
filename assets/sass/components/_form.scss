@@ -1,0 +1,20 @@
+section#form {
+    background:#fff;
+    padding: 1rem;
+    border-radius:.50rem;
+    position: absolute;
+    left: 0%;
+    input {
+        width: 100%;
+        display:block;
+    }
+    select {
+        width: 100%;
+        display: block;
+    }
+    button {
+        width: 10%;
+        background-color: $salmon;
+        font-weight: bold;
+    }
+}
