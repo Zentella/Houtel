@@ -1,14 +1,25 @@
-input.button {
-    background-color: $salmon;
-    color: white;
-    font-weight: bold;
-    margin: 0 auto;
-    display: inline-block;
-    width: 4rem;
+.titulo button {
+  @include datos;
+    background-color: $verdigris;
+    border: none;
+    margin-left: 40%;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-button {
-  background-color: $verdigris;
-  color: white;
-  border: none;
-  margin-left: 50%;
+//boton Buscar
+.form button {
+  @include datos;
+    background-color: $carmine-pink;
+    border-radius:.10rem;
+    width: 10%;
+    padding-left: 20px;
+    padding-right: 80px;
+    margin-top: 1rem;
+    margin-left: 40%;
+    border: none;
+    
+
+    //justify-content: center;
+    //box-sizing: border-box;
 }

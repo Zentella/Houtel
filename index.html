@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- idioma español -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +10,8 @@
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="assets/css/main.css" rel="stylesheet">
+    <!-- cdn font-awesome ver 5.15-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -16,55 +20,61 @@
 
 </head>
 <body>
-    <!-- header -->
+
+    <!-- header logo -->
     <header>
         <figure>
             <img src="assets/img/logo.png" alt="HOUTEL">
         </figure>
     </header>
 
-    <section>
-        <aside>
-            <h3>Disfruta de los paisajes de</h3>
-            <h2>Chile</h2>
-            <button>Más destinos</button>
-        </aside>
-        <section id="form" class="container m-5">
-            <!-- form -->
-            <h6>Lugar u Hotel</h6>
-            <input type="text" placeholder="Escribe tu destino">
+    <!-- section main -->
+    <section class="main">
 
-            <!-- fecha -->
-            <h6>Fecha de llegada</h6>
-            <select>
-                <option value="1">Busca tu llegada</option>
-            </select>
+        <!-- section titulo -->
+        <section>
+          <div class="titulo">
+                <h3>Disfruta de los paisajes de</h3>
+                <h2>Chile</h2>
+                <button>Más destinos</button>
+              </div>
+        </section>
+        <!-- section form -->
+        <section class="form container">
+                <!-- destino -->
+                <h6>Lugar u hotel</h6>
+                <input type="text" placeholder="Escribe tu destino">
 
-            <!-- salida -->
-            <h6>Fecha de salida</h6>
-            <select>
-                <option value="1">Busca tu salida</option>
-            </select>
+                <!-- fecha -->
 
-            <!-- tipo de alojamiento -->
-            <h6>Tipo de alojamiento</h6>
-            <select>
-                <option value="1">Cantidad de huéspedes</option>
-            </select>
+                <h6>Fecha de llegada</h6>
+                <select class="select-css" class="select-css">
+                    <option value="1">Busca tu llegada</option>
+                </select>
 
-            <!-- Tipo de habitación -->
-            <h6>Tipo de habitación</h6>
-            <select>
-                <option value="1">Cantidad de habitaciones</option>
-            </select>
+                <!-- salida -->
+                <h6>Fecha de salida</h6>
+                <select class="select-css">
+                    <option value="1">Busca tu salida</option>
+                </select>
 
-            <button>Buscar</button>
+                <!-- tipo de alojamiento -->
+                <h6>Tipo de alojamiento</h6>
+                <select class="select-css">
+                    <option value="1">Cantidad de huéspedes</option>
+                </select>
 
-            <!--<input class="button" value="Buscar">-->
+                <!-- Tipo de habitación -->
+                <h6>Tipo de habitación</h6>
+                <select class="select-css">
+                    <option value="1">Cantidad de habitaciones</option>
+                </select>
+
+                <!-- botón Buscar -->
+                <button>Buscar</button>
 
         </section>
-    </section>
-    <!-- aside -->
+      </section>
 
-</body>
+    </body>
 </html>

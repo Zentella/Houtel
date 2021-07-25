@@ -1,0 +1,25 @@
+.main {
+  .titulo {
+      width: 40rem;
+      //height: 18rem;
+      margin: 0 auto;
+      h3 {
+        @include datos;
+      }
+      h2 {
+        @include datos;
+          font-family: $playfair;
+          font-size:$xxxx-large;
+      }
+      button {
+        @include datos;
+      }
+  }
+
+}
+
+@media (max-width: 576px) {/*al reducir a pantalla sm*/
+  .main {
+    margin-left: -200px;
+}
+}
